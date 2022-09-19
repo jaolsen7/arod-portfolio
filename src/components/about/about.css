@@ -1,4 +1,4 @@
-.container__about {
+.about {
     display: grid;
     grid-template-columns: 35% 50%;
     gap: 15%;
@@ -68,7 +68,7 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .container__about {
+    .about {
         grid-template-columns: 1fr;
         gap: 0;
     }

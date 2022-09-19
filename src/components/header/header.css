@@ -4,7 +4,7 @@ header {
     overflow: hidden;
 }
 
-.container__header {
+.header {
     text-align: center;
     height: 100%;
     position: relative;
