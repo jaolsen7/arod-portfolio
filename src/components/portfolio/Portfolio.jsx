@@ -16,42 +16,42 @@ const data = [
     id: 1,
     image: IMG1,
     title: "Project 1",
-    resources: "https://www.google.com",
+    research: "https://www.google.com",
     project: "https://www.yahoo.com"
   },
   {
     id: 2,
     image: IMG2,
     title: "Project 2",
-    resources: "https://www.google.com",
+    research: "https://www.google.com",
     project: "https://www.yahoo.com"
   },
   {
     id: 3,
     image: IMG3,
     title: "Project 3",
-    resources: "https://www.google.com",
+    research: "https://www.google.com",
     project: "https://www.yahoo.com"
   },
   {
     id: 4,
     image: IMG4,
     title: "Project 4",
-    resources: "https://www.google.com",
+    research: "https://www.google.com",
     project: "https://www.yahoo.com"
   },
   {
     id: 5,
     image: IMG5,
     title: "Project 5",
-    resources: "https://www.google.com",
+    research: "https://www.google.com",
     project: "https://www.yahoo.com"
   },
   {
     id: 6,
     image: IMG6,
     title: "Project 6",
-    resources: "https://www.google.com",
+    research: "https://www.google.com",
     project: "https://www.yahoo.com"
   }
 ]
@@ -70,7 +70,7 @@ const Portfolio = () => {
         modules={[Pagination, Navigation]}
         className="container portfolio">
         {
-          data.map(({id, image, title, resources, project}) => {
+          data.map(({id, image, title, research, project}) => {
             return (
               <SwiperSlide key={id} className="mySwiper portfolio__item">
                 <div className="portfolio__item__image">
@@ -81,7 +81,7 @@ const Portfolio = () => {
                 <small className="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, nihil. Sapiente quisquam alias ad reiciendis aliquam quod, numquam, deleniti voluptatum, doloribus aut ab omnis incidunt itaque ipsa fugit placeat mollitia.</small>
                 </div>
                 <div className="portfolio__item__cta">
-                  <a href={resources} className="btn" target="_blank" rel="noreferrer">Resources</a>
+                  <a href={research} className="btn" target="_blank" rel="noreferrer">Research</a>
                   <a href={project} className="btn btn-primary" target="blank" rel="noreferrer">Project</a>
                 </div>
               </SwiperSlide>
