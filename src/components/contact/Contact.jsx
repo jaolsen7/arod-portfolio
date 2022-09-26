@@ -11,7 +11,7 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_ocljjtg', 'template_kvcfmlf', form.current, 'YEa026RU9xPJXDYfC')
+    emailjs.sendForm('service_ocljjtg', 'template_kvcfmlf', form.current, 'gk7X30Qtix_V1xMwh')
       .then((result) => {
           console.log(result.text);
           alert("Message sent!")
