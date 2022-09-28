@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/arod-portfolio/static/css/main.4b69cb10.css",
+    "main.js": "/arod-portfolio/static/js/main.a44fe9f1.js",
+    "static/media/cv.pdf": "/arod-portfolio/static/media/cv.1676dcdc83730930d888.pdf",
+    "static/media/arod-side-removebg.png": "/arod-portfolio/static/media/arod-side-removebg.19e585fdba30496956f7.png",
+    "static/media/arod.jpg": "/arod-portfolio/static/media/arod.a00f295e31f59d14fdc0.jpg",
+    "static/media/portfolio5.png": "/arod-portfolio/static/media/portfolio5.a82ae9a163c1ac5e3a07.png",
+    "static/media/portfolio2.jpg": "/arod-portfolio/static/media/portfolio2.ae187bc4e43ae6dbc263.jpg",
+    "static/media/portfolio6.jpg": "/arod-portfolio/static/media/portfolio6.72d1107e313049cf15a7.jpg",
+    "static/media/portfolio1.jpg": "/arod-portfolio/static/media/portfolio1.f5e72352e5aa840702b8.jpg",
+    "static/media/portfolio3.jpg": "/arod-portfolio/static/media/portfolio3.cbab42559fe73e73906f.jpg",
+    "static/media/portfolio4.jpg": "/arod-portfolio/static/media/portfolio4.6bf60cbb8fe5f7d7af5d.jpg",
+    "index.html": "/arod-portfolio/index.html",
+    "main.4b69cb10.css.map": "/arod-portfolio/static/css/main.4b69cb10.css.map",
+    "main.a44fe9f1.js.map": "/arod-portfolio/static/js/main.a44fe9f1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4b69cb10.css",
+    "static/js/main.a44fe9f1.js"
+  ]
+}
